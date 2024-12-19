@@ -1,9 +1,124 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="SNznmmEo42H8LBjOgdVF">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="600" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-29" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-1" value="外部模块&lt;br&gt;maven-module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-2" value="前端&lt;br&gt;（Web/app/小程序）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="190" y="460" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="190" y="585" width="530" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-7" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-8" value="API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="480" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-10" value="&lt;font color=&quot;#ff9933&quot;&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-11" value="Mapper&lt;br&gt;（数据库）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="607.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-12" value="RedisDAO&lt;br&gt;(换层)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="607.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-13" value="接&lt;br&gt;入&lt;br&gt;层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-14" value="逻&lt;br&gt;辑&lt;br&gt;层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-15" value="存&lt;br&gt;储&lt;div&gt;层&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-16" value="&lt;font color=&quot;#ff3333&quot;&gt;VO Convert（DO)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-17" value="&lt;font color=&quot;#ff9933&quot;&gt;&lt;b&gt;Service&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#006600;entryX=0.442;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HOPSTzhLwcQxymyO9wNr-7" target="HOPSTzhLwcQxymyO9wNr-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="310" as="sourcePoint" />
+            <mxPoint x="250" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-23" value="&lt;font color=&quot;#009900&quot;&gt;ReqVO&lt;br&gt;ResVO&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HOPSTzhLwcQxymyO9wNr-18">
+          <mxGeometry x="0.3439" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#006600;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HOPSTzhLwcQxymyO9wNr-16" target="HOPSTzhLwcQxymyO9wNr-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-24" value="ReqVO&lt;br&gt;ResVO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HOPSTzhLwcQxymyO9wNr-19">
+          <mxGeometry x="0.2" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#006600;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HOPSTzhLwcQxymyO9wNr-11" target="HOPSTzhLwcQxymyO9wNr-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="590" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-25" value="ReqDO&lt;br&gt;ResDO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HOPSTzhLwcQxymyO9wNr-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#0000CC;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HOPSTzhLwcQxymyO9wNr-8" target="HOPSTzhLwcQxymyO9wNr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="320" as="sourcePoint" />
+            <mxPoint x="620" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-26" value="&lt;font color=&quot;#3333ff&quot;&gt;ReqDTO&lt;br&gt;ResDTO&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HOPSTzhLwcQxymyO9wNr-21">
+          <mxGeometry x="0.06" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#0000CC;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HOPSTzhLwcQxymyO9wNr-10" target="HOPSTzhLwcQxymyO9wNr-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="480" as="sourcePoint" />
+            <mxPoint x="640" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-27" value="&lt;font color=&quot;#3333ff&quot;&gt;ReqDTO&lt;br&gt;ResDTO&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HOPSTzhLwcQxymyO9wNr-22">
+          <mxGeometry x="0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-28" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;LEO-Module-Biz&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HOPSTzhLwcQxymyO9wNr-32" value="&lt;font color=&quot;#ff8000&quot;&gt;&lt;b&gt;LEO&lt;br&gt;Module&lt;br&gt;API&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
